@@ -1,10 +1,6 @@
 # ⚡ Global EV Charging Stations (2025)  
 **Author:** [Tarek Masryo](https://github.com/tarekmasryo) · [Kaggle](https://www.kaggle.com/datasets/tarekmasryo/global-ev-charging-stations)  
 
-**License:**  
-• Charging data (Open Charge Map) — **CC BY 4.0**  
-• Companion file `ev_models_2025.csv` — **CC0**  
-
 ---
 
 ## TL;DR
@@ -71,10 +67,11 @@ Simplified **7-column** version, deduplicated and compact for direct ML training
 
 ---
 
-## 🪪 License & attribution
-- **Charging data:** Open Charge Map (openchargemap.org) — **CC BY 4.0**  
-  Must credit: *“Contains data © Open Charge Map contributors.”*  
-- **EV models:** compiled from CC0-friendly sources (no attribution required).  
+## 🪪 License
+Contains data © Open Charge Map (CC BY-SA 4.0).  
+Processed and released by Tarek Masryo (© 2025) under CC BY 4.0 International.
+
+ 
 
 ---
 
@@ -108,5 +105,6 @@ print("Fast-DC share:", round(fast_dc_share, 3))
 ## Related Repositories
 - 🔍 [EV Charging EDA](https://github.com/tarekmasryo/ev-charging-eda)
 - 📊 [EV Charging Dashboard](https://github.com/tarekmasryo/ev-charging-dashboard)
+
 
 
